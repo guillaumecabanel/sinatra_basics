@@ -1,6 +1,7 @@
 # Sinatra basics
 
 👉 http://www.sinatrarb.com/
+
 ---
 
 ## Hello World
