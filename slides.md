@@ -32,7 +32,7 @@ See your app on http://localhost:4567 🎉
 # app.rb
 
 get '/' do
-  erb :home, layout: :'layouts/application'
+  erb :home
 end
 ```
 
@@ -45,43 +45,15 @@ vvv
 ├── app.rb
 └── views
     ├── home.erb
-    └── layouts
-        └── application.erb
+    └── search.erb
 
-```
-
-vvv
-
-### partial
-
-`views/home.erb`
-
-```erb
-<h1>Welcome on this awesome app!</h1>
-```
-
-vvv
-
-### Layout
-
-`views/layouts/application.erb`
-
-```erb
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>My app</title>
-  </head>
-  <body>
-    <%= yield %>
-  </body>
-</html>
 ```
 
 ---
 
 # Deployement
+
+<img class="full-screen" src="images/rocket.gif">
 
 vvv
 

@@ -11,6 +11,10 @@ blockquote {
   font-size: 70% !important;
 }
 
+img.full-screen{
+  width:100%;
+}
+
 h4{
   text-align: left;
 }
