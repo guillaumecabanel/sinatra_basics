@@ -5,6 +5,9 @@
 ---
 
 ## Hello World
+```sh
+gem install sinatra
+```
 
 ```ruby
 # app.rb
